@@ -20,7 +20,7 @@ Install dependencies:
 npm install
 
 Run the server:
-node src/server.js
+node src/server.js or npm start
 
 Open your browser and navigate to http://localhost:8080.
 
@@ -50,7 +50,7 @@ npm run test
 
 Cypress End-to-End Tests
 Setup and run Cypress tests:
-npx cypress open
+npm run test:cypress or npx cypress open
 
 GitHub Actions
 Tests are automatically run on every push to the repository. The workflow file is located in .github/workflows/test.yml.
